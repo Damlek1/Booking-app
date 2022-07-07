@@ -1,0 +1,64 @@
+.navbar{
+    height: 50px;
+    background: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 500;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+.navBut{
+    color: #fff;
+    padding: 10px;
+    background: #003580;
+    border: 1px solid #fff;
+}
+.navBut:hover{
+    background: #0071c2;
+}
+@media screen and (max-width:500px){
+    .navbar{
+        height: 100px;
+    }
+    .navContainer{
+        display: flex;
+
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .navBut{
+        width: 70%;
+
+    }
+    .bt{
+        margin:5px;
+    }
+    .navButton{
+
+
+        margin-left: 0px;
+        padding: 5px 10px;
+    }
+    .navItems{
+        flex-direction: column-reverse;
+    }
+}

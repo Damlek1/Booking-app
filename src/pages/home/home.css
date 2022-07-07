@@ -1,0 +1,45 @@
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.homeTitle{
+    font-size: 30px;
+    margin-top: 7px;
+    margin-bottom: -10px;
+
+
+}
+.desti{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.region{
+    padding: 10px;
+    border: 2px solid #0071c2;
+    border-radius: 20px;
+    color: #0071c2;
+    background: #d3e8f8;
+    cursor: pointer;
+}
+.destcity{
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 10px;
+}
+.destcity:hover{
+    background: rgb(241, 240, 240);
+    border-radius: 20px;
+
+}
+@media screen and (max-width:500px){
+    .homeTitle{
+        text-align: center;
+    }
+    .overflow{
+        overflow-x:hidden;
+    }
+
+}

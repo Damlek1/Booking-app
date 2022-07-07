@@ -1,0 +1,40 @@
+.destinationList{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+
+}
+.destinationTitles{
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+    margin-bottom: 20px;
+    color: #555;
+
+}
+.destinationTitle{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.city{
+    font-size: 20px;
+}
+.prop{
+    font-size: 16px;
+}
+.city:hover{
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width:500px){
+    .destinationList{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 0px 20px;
+    }
+}
